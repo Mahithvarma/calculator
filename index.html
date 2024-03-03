@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="field"><input type="text" name="input" id="display"></div>
+        <div class="buttons">
+            <button onclick="reset()" class="operator-btn">AC</button>
+            <button onclick="backspace()" class="operator-btn">⬅</button>
+            <button onclick="update('%')" class="operator-btn">%</button>
+            <button onclick="update('+')" class="operator-btn">+</button>
+            <button onclick="update('7')" class="number-btn">7</button>
+            <button onclick="update('8')" class="number-btn">8</button>
+            <button onclick="update('9')" class="number-btn">9</button>
+            <button onclick="update('-')" class="operator-btn">-</button>
+            <button onclick="update('4')" class="number-btn">4</button>
+            <button onclick="update('5')" class="number-btn">5</button>
+            <button onclick="update('6')" class="number-btn">6</button>
+            <button onclick="update('*')" class="operator-btn">*</button>
+            <button onclick="update('1')" class="number-btn">1</button>
+            <button onclick="update('2')" class="number-btn">2</button>
+            <button onclick="update('3')" class="number-btn">3</button>
+            <button onclick="update('/')" class="operator-btn">/</button>
+            <button onclick="update('00')" class="number-btn">00</button>
+            <button onclick="update('0')" class="number-btn">0</button>
+            <button onclick="update('.')" class="number-btn">.</button>
+            <button onclick="calculate()" class="operator-btn">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
